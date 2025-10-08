@@ -1,0 +1,275 @@
+<html>
+<head>
+/>
+  <title>Gallery</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-family: 'Gill Sans';
+      text-size-adjust: 20px;
+    }
+
+    h1 {
+      color: #2563eb;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      font-family: monospace;
+    }
+
+    p {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .photo-card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .photo-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .photo-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .photo-card p {
+      padding: 1rem;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .back-btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      margin-top: 2rem;
+    }
+
+    .back-btn:hover {
+      background-color: #1e4ed8;
+      transform: scale(1.05);
+    }
+
+    .back-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Photo Gallery</h1>
+    <p>Here are some of my favorite photos and memories!</p>
+  </header>
+
+  <section class="gallery">
+    <div class="photo-card">
+      <img src="aura.jpg" alt="Photo 1">
+      <p>Chess Tournament</p>
+    </div>
+    <div class="photo-card">
+      <img src="valtour.jpg" alt="Photo 2">
+      <p>Valorant Tournament</p>
+    </div>
+    <div class="photo-card">
+      <img src="iwo.jpg" alt="Photo 3">
+      <p>D&D fanart</p>
+    </div>
+    <div class="photo-card">
+      <img src="fancy.jpg" alt="Photo 4">
+      <p>Business meeting</p>
+    </div>
+    <div class="photo-card">
+      <img src="mawd.jpg" alt="Photo 5">
+      <p>MAWD</p>
+    </div>
+      <div class="photo-card">
+      <img src="friend.jpg" alt="Photo 6">
+      <p>My BFF</p>
+    </div>
+    <div class="photo-card">
+      <img src="her.jpg" alt="Photo 7">
+      <p>Cutie</p>
+    </div>
+    <div class="photo-card">
+      <img src="miss.jpg" alt="Photo 8">
+      <p>I miss yall</p>
+    </div>
+    <div class="photo-card">
+      <img src="rulebreaker.jpg" alt="Photo 9">
+      <p>Law</p>
+    </div>
+    <div class="photo-card">
+      <img src="teacher.jpg" alt="Photo 10">
+      <p>Maam:></p>
+    </div>
+    <div class="photo-card">
+      <img src="sirdom.jpg" alt="Photo 11">
+      <p>Hi sir dom</p>
+    </div>
+    <div class="photo-card">
+      <img src="moggers.jpg" alt="Photo 12">
+      <p>Mogging</p>
+    </div>
+    <div class="photo-card">
+      <img src="skibidi.jpg" alt="Photo 13">
+      <p>NPCs</p>
+    </div>
+    <div class="photo-card">
+      <img src="hai.jpg" alt="Photo 14">
+      <p>Are you okay po? </p>
+    </div>
+    <div class="photo-card">
+      <img src="nawal an ug bag.jpg" alt="Photo 15">
+      <p> Nawal-an ka ug bag bai? </p>
+    </div>
+    <div class="photo-card">
+      <img src="css.jpg" alt="Photo 16">
+      <p> First CSS </p>
+    </div>
+    <div class="photo-card">
+      <img src="4th.jpg" alt="Photo 17">
+      <p>Tagisan ng talino </p>
+    </div>
+    <div class="photo-card">
+      <img src="aurafarming.png" alt="Photo 18">
+      <p>Aura Farming</p>
+    </div>
+     <div class="photo-card">
+      <img src="MENACE.png" alt="Photo 18">
+      <p>The Menace</p>
+    </div>
+     <div class="photo-card">
+      <img src="rawr2.jpg" alt="Photo 18">
+      <p>Feb 1</p>
+    </div>
+     <div class="photo-card">
+      <img src="rawr.jpg" alt="Photo 18">
+      <p>S4</p>
+    </div>
+    <div class="photo-card">
+      <img src="cutecouple.jpg" alt="Photo 19">
+      <p>James and CJ</p>
+    </div>
+    <div class="photo-card">
+      <img src="cameraguy.jpg" alt="Photo 19">
+      <p>It's illegal to take picture of the cameraguy</p>
+    </div>
+    <div class="photo-card">
+      <img src="thequeen.jpg" alt="Photo 20">
+      <p>The Queen - Sir July</p>
+    </div>
+    <div class="photo-card">
+      <img src="trio.jpg" alt="Photo 21">
+      <p>Sofia, Elizabeth and Neyhan</p>
+    </div>
+    <div class="photo-card">
+      <img src="jen.jpg" alt="Photo 22">
+      <p>Nagpapacute kasi nanjan yung babyloves nya</p>
+    </div>
+    <div class="photo-card">
+      <img src="cutecouple2.jpg" alt="Photo 23">
+      <p>S4</p>
+    </div>
+    <div class="photo-card">
+      <img src="thethinker.jpg" alt="Photo 24">
+      <p>Ano nasa isip mo?</p>
+    </div>
+    <div class="photo-card">
+      <img src="raph.jpg" alt="Photo 25">
+      <p>The Silver RANKED Master-baiter </p>
+    </div>
+    <div class="photo-card">
+      <img src="carter.jpg" alt="Photo 26">
+      <p>I like this pic</p>
+    </div>
+    <div class="photo-card">
+      <img src="angas.jpg" alt="Photo 27">
+      <p>SIR ASA NATONG UBAN PICTURE</p>
+    </div>
+    <div class="photo-card">
+      <img src="photobomber.jpg" alt="Photo 28">
+      <p>Funny story, He kept smiling in the bg when i took a photo of kuya lychee and his gf</p>
+    </div>
+    <div class="photo-card">
+      <img src="photobomber2.jpg" alt="Photo 29">
+      <p>So i forced him to pose in the wall and im happy how it turned out</p>
+    </div>
+    <div class="photo-card">
+      <img src="kiss.jpg" alt="Photo 30">
+      <p>Show intimate POSE, 321 SMILE</p>
+    </div>
+    <div class="photo-card">
+      <img src="HEYHEY.jpg" alt="Photo 31">
+      <p>HEYHEYYOUYOU</p>
+    </div>
+    <div class="photo-card">
+      <img src="joyce.jpg" alt="Photo 32">
+      <p>I kept calling her jolyne for some reason</p>
+    </div>
+    <div class="photo-card">
+      <img src="doubledeck.jpg" alt="Photo 33">
+      <p>I love double deck -Some person</p>
+    </div>
+    <div class="photo-card">
+      <img src="crisp.jpg" alt="Photo 34">
+      <p>Gangsta Crisp Chris</p>
+    </div>
+    <div class="photo-card">
+      <img src="photogenic.jpg" alt="Photo 35">
+      <p>Leshemyyyy</p>
+    </div>
+    <div class="photo-card">
+      <img src="mgaskibidisamawd.jpg" alt="Photo 36">
+      <p>mgaskibidisamawd</p>
+    </div>
+    <div class="photo-card">
+      <img src="birthday.jpg" alt="Photo 37">
+      <p>anyare sa candle bro</p>
+    </div>
+    <div class="photo-card">
+      <img src="galit.jpg" alt="Photo 38">
+      <p>Bakit kayo galit?</p>
+    </div>
+
+
+    </div>
+  </section>
+
+  <div class="back-container">
+    <a href="index.html" class="back-btn">← Back to About Me</a>
+  </div>
+</body>
+</html>
